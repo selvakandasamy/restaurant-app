@@ -1,7 +1,7 @@
 import os
 
-os.environ['OPENAI_API_KEY'] = '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'
-#os.environ['COHERE_API_KEY'] = 'G9il2yvjNTP22Le3gX9s9BjpZRAMyHLUfXge7X9P'
+os.environ['OPENAI_API_KEY'] = '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'
+os.environ['COHERE_API_KEY'] = 'G9il2yvjNTP22Le3gX9s9BjpZRAMyHLUfXge7X9P'
 
 from langchain.llms import OpenAI
 from langchain.llms import Cohere
