@@ -10,7 +10,7 @@ from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
 import cohere
 
-llm = OpenAI()
+llm = Cohere()
 
 def generate_restaurant_name_and_items(cuisine):
     # Chain 1: Restaurant Name
